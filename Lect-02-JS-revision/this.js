@@ -33,17 +33,20 @@ console.log(this);
 
 
 
-
+var a=90;
 let mirai = {
     college: "Mirai",
     city: "gaziabad",
     country: "India",
-    displayInfo: function() {
+    // displayInfo: function() {
+    //     console.log("hiii");
+    //     console.log(this);
+    //     // return this;
+    displayInf:()=>{
         console.log("hiii");
-        console.log(this);
+        console.log(this.a);
         // return this;
-    },
-
+    }
 };
 mirai.displayInfo();
 console.log(mirai.displayInfo);
