@@ -9,15 +9,15 @@ class Car {
     constructor(company) {
         this.company = company;
     }
-    // constructor(fuel, year) {
-    //     this.fuel = fuel;
-    //     this.year = year;
-    // }
-    // constructor(pri, col, mod) {
-    //     this.price = pri;
-    //     this.color = col;
-    //     this.model_no = mod;
-    // }
+    constructor(fuel, year) {
+        this.fuel = fuel;
+        this.year = year;
+    }
+    constructor(pri, col, mod) {
+        this.price = pri;
+        this.color = col;
+        this.model_no = mod;
+    }
 
     start() {
         console.log("Car is starting");
