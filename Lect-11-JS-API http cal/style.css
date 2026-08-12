@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+    background:#3f51b5;
+}
+.container{
+    margin-top: 30px;
+    width: 400px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);    
+   
+   border-radius: 20px;
+   background-color: #c0c0dd;
+
+}
+div :not(container,.cn,.dr){
+    border-radius: 60px;
+    margin: 10px;
+}
+.item{
+    background-color:rgb(95, 175, 113);
+     font-size: xx-large;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     cursor: pointer;
+     display: grid;
+     justify-content: center;
+     align-items: center; 
+     text-decoration-color: rgb(228, 215, 210);
+     color:darkblack;
+}
+.dce{
+    grid-column: 1/5;
+}
+.dr{
+    grid-column: 1/3;
+}
+.cn{
+    grid-column: 3/5;
+}
+.equalto{
+    grid-column: 3/5;
+}
+input{
+    width: 185px;
+    height: 60px;
+    background-color: #d0e6cf;
+    font-size: x-large;
+    font-weight: lighter;
+    padding: 4px;
+}
+h2{
+    color:darkblue;
+}

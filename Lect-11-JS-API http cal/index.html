@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- display section -->
+        <div class="item dce" value=""><h2>Calculator</h2></div>
+
+        <button class="item dr"> <input type="text" id="res" value=""> </button>
+        <button class="item cn"> <input type="text" id="exp" value=""> </button>
+
+
+        <!-- onclick action -->
+        <button class="item" onclick="clearAll()">CA</button>
+        <button class="item" onclick="clearElement()">CE</button>
+
+
+        <!-- buttons insert into expression-->
+        <button class="item" onclick="expression('%')" >%</button>
+        <button class="item" onclick="expression('/')"> /  </button>
+        <button class="item" onclick="expression(7)"> 7  </button>
+        <button class="item" onclick="expression(8)">   8  </button>
+        <button class="item" onclick="expression(9)">9  </button>
+        <button class="item" onclick="expression('*')"> *  </button>
+        <button class="item" onclick="expression(4)">  4  </button>
+        <button class="item" onclick="expression(5)">  5  </button>
+        <button class="item" onclick="expression(6)">  6  </button>
+        <button class="item" onclick="expression('-')">  -  </button>
+        <button class="item" onclick="expression(1)">  1 </button>
+        <button class="item" onclick="expression(2)">  2 </button>
+        <button class="item" onclick="expression(3)">  3  </button>
+        <button class="item" onclick="expression('+')">  + </button>
+        <button class="item" onclick="expression(0)" > 0 </button>
+        <button class="item" onclick="expression('.')">  . </button>
+
+        <!-- result -->
+        <button class="item equalto" onclick="result()"> = </button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+<!-- aanchal sharma here  -->
