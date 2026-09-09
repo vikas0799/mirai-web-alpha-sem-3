@@ -10,6 +10,7 @@ function App() {
   return (
     <>
       <h1>mirai</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
     </>
   )
 }
