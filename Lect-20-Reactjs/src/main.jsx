@@ -30,7 +30,9 @@ const heading1 = React.createElement(
   "Vikas Heading No.01"
 );
 
+const age=90;
 const sagar=<h1>sagar is a bad student</h1>;
+
 const container = React.createElement("div", { id: "container" }, [
   heading,
   heading1,
