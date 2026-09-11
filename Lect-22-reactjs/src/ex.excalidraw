@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "UWckX3yBpN0zeM7SyyqU7",
+      "type": "text",
+      "x": 125.57414245605469,
+      "y": 129.3681411743164,
+      "width": 664.0995483398438,
+      "height": 125,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 1744419624,
+      "version": 277,
+      "versionNonce": 1294659368,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789114535870,
+      "link": null,
+      "locked": false,
+      "text": "adding css->\n     1. core css(inline, internal, external, sass less, module css )\n\n2.css library/framwork->\n     ( tailwind/material UI/boostrap/shadCN,styled-components etc)",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "adding css->\n     1. core css(inline, internal, external, sass less, module css )\n\n2.css library/framwork->\n     ( tailwind/material UI/boostrap/shadCN,styled-components etc)",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
