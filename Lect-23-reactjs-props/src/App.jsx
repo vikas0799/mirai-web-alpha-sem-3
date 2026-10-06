@@ -104,18 +104,19 @@
 
 import React from 'react'
 import Card from './Card'
+import Counter from './Counter'
 
 function App() {
-    let fname="rishav raj";
+    // let fname="rishav raj";
 
   return (
     <>
-      <h1 style={{}} >my name is. {fname}</h1>
-      {/* <Card style={{}} /> */}
-      <Card  age={23} />
-
+      <Counter/>
     </>
   )
 }
 
 export default App
+
+
+
